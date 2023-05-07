@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wrapper {
+    width: 500px;
+    padding: 50px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(42, 83, 58) 0px 20px 30px -10px;
+}
+
+.section_title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section_title h2 {
+    font-size: 40px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.section_title p {
+    font-size: 15px;
+    color: #8a8a8a;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form_area {
+    width: 100%;
+    overflow: hidden;
+}
+
+label {
+    padding-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: 1px solid #ACAE64;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+*:focus {
+    outline: none;
+}
+
+
+input[type="number"] {
+
+    margin-bottom: 20px;
+}
+
+#calculateBtn {
+    display: block;
+    width: 200px;
+    background-color: #468D61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all .3s;
+}
+
+#calculateBtn:hover {
+    background-color: #1C3C27;
+}
+
+#result {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}
